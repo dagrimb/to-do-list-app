@@ -31,6 +31,14 @@ li.on("dblclick", function crossOut() {
     li.toggleClass("strike");
 });
 
+//Create variable for cross-out button and assign it to crossOutButton elements
+let crossOutButton = $('<crossOutButton></crossOutButton>');
 
 
 }
+
+
+
+
+
+
