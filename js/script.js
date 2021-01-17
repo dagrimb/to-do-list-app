@@ -45,7 +45,7 @@ function deleteListItem() {
     }
 
     //Add ability to sort items in list
-    $('#list').sortable
+    $('#list').sortable();
 
 }
 
