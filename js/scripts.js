@@ -39,11 +39,13 @@ crossOutButton.append(document.createTextNode('X'));
 li.append(crossOutButton);
 
 //Attach click event to the cross-out button that deletes the item on a click
-crossOutButton.on("click", deleteListItem() , {
-    function deleteListItem() {
-        li.addClass("delete")
+crossOutButton.on("click", deleteListItem() {
+    function deleteListItem(), {
+        li,.addClass("delete")
     }
-})
+
+    //Add ability to sort items in list
+    $('#list').sortable
 
 }
 
