@@ -35,6 +35,8 @@ li.on("dblclick", function crossOut() {
 let crossOutButton = $('<crossOutButton></crossOutButton>');
 //Create and attach X mark-out to the cross-out button
 crossOutButton.append(document.createTextNode('X'));
+//Append the cross-out button to the list item
+li.append(crossOutButton);
 
 }
 
