@@ -8,6 +8,14 @@ let li = $('<li></li>');
 let inputValue = $('#input').val();
 li.append(inputValue);
 
+//Create conditional whereby user receives message that they need to write something if they click "add"
+//after not entering anything. If user does enter something, attach what is entered to ordered list
+//element "list"
 
+if (inputValue === '') {
+    alert("You must write something!");
+} else {
+    $('#list').append(li);
+}
 
 }
