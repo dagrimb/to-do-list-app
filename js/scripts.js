@@ -21,11 +21,15 @@ if (inputValue === '') {
 //Enable user to cross item out on list: create function and, inside it, attach a toggleClass of "strike"
 //to the item.
 
+function crossOut() {
+    li.toggleClass("strike");
+}
+
+//Use previously created crossOut function to cross-out item when user double-clicks on it
+
 li.on("dblclick", function crossOut() {
     li.toggleClass("strike");
 });
-
-
 
 
 
