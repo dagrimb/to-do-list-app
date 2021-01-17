@@ -18,4 +18,15 @@ if (inputValue === '') {
     $('#list').append(li);
 }
 
+//Enable user to cross item out on list: create function and, inside it, attach a toggleClass of "strike"
+//to the item.
+
+li.on("dblclick", function crossOut() {
+    li.toggleClass("strike");
+});
+
+
+
+
+
 }
