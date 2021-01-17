@@ -33,7 +33,8 @@ li.on("dblclick", function crossOut() {
 
 //Create variable for cross-out button and assign it to crossOutButton elements
 let crossOutButton = $('<crossOutButton></crossOutButton>');
-
+//Create and attach X mark-out to the cross-out button
+crossOutButton.append(document.createTextNode('X'));
 
 }
 
